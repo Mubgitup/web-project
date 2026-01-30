@@ -1,0 +1,154 @@
+.login-menu{
+    position: absolute;
+    top: 30px;
+    bottom: 100px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400pxpx;
+    width: 250px;
+    border: 4px;
+    border-color: black;
+    border-radius: 8px;
+    
+}
+.login-here{
+    font-family: Arial;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(224, 224, 250);
+}
+
+.email{
+     background-color: rgb(190, 190, 253);
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 9px;
+    border: none;
+    padding-left: 5px;
+
+}
+
+.password{
+     background-color: rgb(158, 158, 253);
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+     border: none;
+     padding-left: 5px;
+
+
+}
+.check{
+    margin-top: 2px;
+}
+.check-box{
+    margin-top: 2px;
+     margin-left: 15px;
+    display: inline-block;
+
+}
+
+.check-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: rgb(19, 241, 19);
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.login{
+     background-color: rgb(55, 55, 248);
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+     border: none;
+     box-shadow:inset 7px 7px 10px black;
+     color:  rgb(55, 55, 248);
+     background-color: aqua;
+     
+}
+.login:hover{
+    background-color: aquamarine;
+    box-shadow: 5px 5px 10px black;
+}
+.login:active{
+      box-shadow:inset 7px 7px 10px rgb(1, 15, 7);
+     color:  rgb(55, 55, 248);
+     background-color: rgb(91, 231, 231);
+     font-weight: bold;
+}
+.ask-user{
+    color: rgb(151, 149, 149);
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+.Sign{
+      color: rgb(151, 149, 149);
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 64px;
+}
+.sign-up{
+   
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up:hover{
+    text-decoration: underline;
+    color: rgb(10, 247, 49);
+}
+.sign-up:active{
+     background-color: rgb(162, 245, 245);
+     padding-left: 4px;
+     padding-right: 4px;
+}
+.login-with{
+        font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 69px;
+    color: rgb(151, 149, 149);
+}
+.option-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.option-icon img{
+     height: 28px;
+     border-radius: 11px;
+     cursor: pointer;
+    
+}
+.option-icon img:hover{
+    opacity: 0.3;
+    
+}
+
+
