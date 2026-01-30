@@ -1,7 +1,6 @@
 .login-menu{
     position: absolute;
     top: 30px;
-    bottom: 100px;
     right: 40px;
     display: flex;
     flex-direction: column;
@@ -21,6 +20,7 @@
     margin-left: 10px;
     margin-right: 10px;
     background-color: rgb(224, 224, 250);
+     margin-bottom: 20px;
 }
 
 .email{
@@ -34,6 +34,7 @@
     font-size: 9px;
     border: none;
     padding-left: 5px;
+    margin-bottom: 20px;
 
 }
 
@@ -47,11 +48,13 @@
     font-size: 12px;
      border: none;
      padding-left: 5px;
+     margin-bottom: 20px;
 
 
 }
 .check{
     margin-top: 2px;
+     margin-bottom: 20px;
 }
 .check-box{
     margin-top: 2px;
@@ -82,6 +85,7 @@
      box-shadow:inset 7px 7px 10px black;
      color:  rgb(55, 55, 248);
      background-color: aqua;
+     margin-bottom: 20px;
      
 }
 .login:hover{
@@ -98,8 +102,8 @@
     color: rgb(151, 149, 149);
     font-size: 16px;
     margin-top: 0px;
-    margin-bottom: 0px;
     margin-left: 50px;
+     margin-bottom: 20px;
 }
 .Sign{
       color: rgb(151, 149, 149);
@@ -107,6 +111,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 64px;
+     margin-bottom: 20px;
 }
 .sign-up{
    
@@ -129,6 +134,7 @@
     margin-bottom: 0px;
     margin-left: 69px;
     color: rgb(151, 149, 149);
+     margin-bottom: 20px;
 }
 .option-icon{
     display: flex;
@@ -138,6 +144,8 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    
 
 }
 .option-icon img{
@@ -150,5 +158,6 @@
     opacity: 0.3;
     
 }
+
 
 
